@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f9;
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+
+            h1 {
+                text-align: center;
+                color: #2c3e50;
+                margin-top: 20px;
+            }
+
+            h2 {
+                color: #2980b9;
+            }
+
+            ol {
+                padding-left: 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: #2980b9;
+            }
+
+            a:hover {
+                color: #3498db;
+            }
+
+            table {
+                width: 100%;
+                margin-top: 20px;
+                border-collapse: collapse;
+            }
+
+            th, td {
+                padding: 8px;
+                border: 1px solid #ddd;
+                text-align: left;
+            }
+
+            th {
+                background-color: #2980b9;
+                color: white;
+            }
+
+            td {
+                background-color: #ecf0f1;
+            }
+
+            .recipe-step {
+                background-color: #f9f9f9;
+                margin: 10px 0;
+                padding: 10px;
+                border-left: 4px solid #2980b9;
+            }
+
+            .recipe-source {
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <h1>My Favorite Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#recipe1">Spaghetti Carbonara</a></li>
+            <li><a href="#recipe2">Grilled Chicken Salad</a></li>
+            <li><a href="#recipe3">Vegetable Stir Fry</a></li>
+        </ol>
+        
+        <h2 id="recipe1">Spaghetti Carbonara</h2>
+        
+        <ul>
+            <li>Time: 30 minutes</li>
+            <li>Serves: 4 people</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Spaghetti</td>
+                    <td>400g</td>
+                </tr>
+                <tr>
+                    <td>Bacon</td>
+                    <td>200g</td>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Parmesan</td>
+                    <td>50g</td>
+                </tr>
+                <tr>
+                    <td>Black Pepper</td>
+                    <td>To taste</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="recipe-step">
+            <strong>Step 1:</strong> Cook the spaghetti in boiling salted water until al dente.
+        </div>
+        <div class="recipe-step">
+            <strong>Step 2:</strong> Fry the bacon in a pan until crispy.
+        </div>
+        <div class="recipe-step">
+            <strong>Step 3:</strong> Whisk the eggs with Parmesan and black pepper.
+        </div>
+        <div class="recipe-step">
+            <strong>Step 4:</strong> Combine the cooked spaghetti with bacon and pour the egg mixture over. Toss until creamy.
+        </div>
+        
+        <p class="recipe-source"><em>Source: <a href="https://www.bbcgoodfood.com/recipes/spaghetti-carbonara">BBC Good Food</a></em></p>
+        
+        <h2 id="recipe2">Grilled Chicken Salad</h2>
+        
+        <ul>
+            <li>Time: 20 minutes</li>
+            <li>Serves: 2 people</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chicken Breast</td>
+                    <td>2 pieces</td>
+                </tr>
+                <tr>
+                    <td>Lettuce</td>
+                    <td>1 head</td>
+                </tr>
+                <tr>
+                    <td>Tomatoes</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Cucumber</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Olive Oil</td>
+                    <td>2 tbsp</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="recipe-step">
+            <strong>Step 1:</strong> Grill the chicken breasts until fully cooked.
+        </div>
+        <div class="recipe-step">
+            <strong>Step 2:</strong> Slice the chicken and vegetables.
+        </div>
+        <div class="recipe-step">
+            <strong>Step 3:</strong> Toss the salad with olive oil and seasonings.
+        </div>
+        
+        <p class="recipe-source"><em>Source: <a href="https://www.foodnetwork.com/recipes/grilled-chicken-salad">Food Network</a></em></p>
+        
+        <h2 id="recipe3">Vegetable Stir Fry</h2>
+        
+        <ul>
+            <li>Time: 25 minutes</li>
+            <li>Serves: 3 people</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mixed Vegetables (Carrot, Bell Peppers, Broccoli)</td>
+                    <td>3 cups</td>
+                </tr>
+                <tr>
+                    <td>Soy Sauce</td>
+                    <td>3 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Tofu</td>
+                    <td>200g</td>
+                </tr>
+                <tr>
+                    <td>Rice</td>
+                    <td>2 cups</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="recipe-step">
+            <strong>Step 1:</strong> Cook the rice according to package instructions.
+        </div>
+        <div class="recipe-step">
+            <strong>Step 2:</strong> Stir-fry the vegetables and tofu in soy sauce until tender.
+        </div>
+        <div class="recipe-step">
+            <strong>Step 3:</strong> Serve the stir fry on top of the rice.
+        </div>
+        
+        <p class="recipe-source"><em>Source: <a href="https://www.allrecipes.com/recipe/vegetable-stir-fry/">AllRecipes</a></em></p>
+        
+    </body>
+</html>
