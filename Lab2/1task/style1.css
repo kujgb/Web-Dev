@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(13, 13, 13);
+    font-family: 'Arial', sans-serif;}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0px 0px 10px;
+    padding: 10px 0;
+    position: relative;
+    margin: auto;
+}
+.login {
+    display: flex;
+    flex-direction: column;
+}
+.login form {
+    display: flex;
+    flex-direction: column;
+    text-align:  center;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 50px;
+    margin: 59px 40px;
+    font: inherit;
+    color: white;
+    border: 1px solid rgb(54, 54, 54);
+}
+.login form .insta-logo {
+    width: 184px;
+    margin: 12px 0;
+}
+.input {
+    width: 100%;
+    padding: 11px 38px 12px 10px;
+    border-radius: 1px;
+    background-color: rgb(21, 21, 21);
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    color: white;
+    margin: 10px 0px 0px;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+.login-button {
+    width: 123%;
+    padding: 12px 10px 10px 8px;
+    font-weight: 700;
+    background-color: rgb(1,182,255);
+    border: none;
+    border-radius: 8px;
+    margin: 17px 0px;
+    color: white;
+}
+#or {
+    margin: 12px 0;
+    font-size: 75%;
+    text-align: center;
+    position: relative;
+    color: #dbdbdb;
+}
+#or::before,
+#or::after {
+    content: "";
+    position: absolute;
+    top: 44%;
+    width: 680%;
+    height: 1px;
+    background-color: #dbdbdb;
+    opacity: 0.2;
+}
+#or::before {
+    left: -130px;
+}
+#or::after {
+    right: -130px;
+}
+.facebook-login{
+    font-weight: 700;
+    font-size: 83%;
+    color: rgb(0, 136, 255);
+    margin-bottom: 19px;
+    margin-top: 6px;
+    cursor: pointer;
+    transition: color 0.3 ease;
+}
+.facebook-login:hover {
+    color: white; 
+}
+.sign{
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 14px 43px 15px;
+    margin: auto;
+    margin-top: -49px;
+    margin-bottom: 25px;
+    color: white; 
+    width: 58%;
+    font-size: 95%;
+}
+.sign a{
+    color: rgb(0, 136, 255);
+    font-weight: bold;
+    margin-left: 5px;
+}
+.get-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    gap: 18px;
+}
+.store{
+    display:flex;
+    align-items: center;
+    margin:auto;
+    gap: 10px;
+}
+#play{
+    width: 122px;
+    border-radius: 8px;
+
+}
+#apple{
+    width: 107px;
+    border-radius: 8px;
+}
+#facebook_l {
+    width: 20px;
+    margin-right: 3px;
+    margin-bottom: -5px;
+}
+.forgot {
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 90%;
+    font-family: 'Arial', sans-serif;
+}
+footer {
+    padding-bottom: 50px;
+    background-color: rgb(13, 13, 13); /* Добавил фон для footer */
+    color: rgb(145, 143, 143);
+}
+
+footer ol {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Исправил опечатку в 'justify-content' */
+    margin: 0;
+    padding: 0;
+}
+
+footer ol li {
+    margin: 0 5px;
+}
+
+footer ol li a {
+    color: rgb(145, 143, 143);
+    text-transform: capitalize;
+    font-size: 12px;
+    text-decoration: none; /* Добавил убирание подчеркивания */
+    transition: color 0.3s ease; /* Добавил плавный переход при наведении */
+}
+
+footer ol li a:hover {
+    color: white; /* Изменение цвета при наведении */
+}
+
+footer small {
+    color: rgb(145, 145, 145);
+    font-size: 12px;
+    margin-left: 700px;
+}

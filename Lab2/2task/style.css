@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    width: 100%;
+    background-color: #f0f2f5; 
+}
+form{
+    width: 350px;
+    height: 260px;
+    background-color: #ffffff;
+    position: absolute;
+    padding: 40px 5px 20px 5px;
+    margin: -10vh 850px;
+    border-radius: 8px;
+    box-shadow: 5px 6px 6px -8px;
+    align-items: center;
+}
+input[type='text'], input[type='password']{
+    
+    background-color: #f0f2f5;
+    margin: auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    width: 200px;
+    padding: 11px 100px 12px 4px;
+    border-radius: 5px;
+    color: black;
+    display: block;
+    opacity: 0.7;
+}
+.forget {
+    width: 200px;
+    margin: auto;
+    color: blue;
+    display: block;
+    padding-left: 80px;
+    font-family: "Segoe UI";
+    font-weight: 360;
+}
+button{
+    display: block;
+    border: none;
+    color: white;
+    background-color: blue;
+    margin: auto;
+    width: 310px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px 0;
+    cursor: pointer;
+    opacity: 0.9;
+}
+.l {
+    border-top: 1px solid #222;
+    opacity: 0.1;
+}
+.container {
+    font-family: inherit; 
+    width: 580px;
+    margin-left: 300px;
+    margin-top:30vh;
+}
+
+.container img{
+    width: 250px;
+    margin-right: 50px; 
+}
+.create-btn {
+    text-align: center;
+    width: 180px;
+    font-size: 14px;
+    background-color: rgb(102, 168, 3);
+}
+/*.page {
+    color:rgba(0, 0, 0, .1);
+    font-size: 13px;
+    padding: 120px 880px;
+    width: 300px;
+    position: relative;
+    font-family: "Segoe UI", Arial;
+    font-size: 12px;
+    font-weight: 550;
+}*/
+.page{
+    border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 125px;
+    margin-left: 520px;
+    text-align: center;
+    display: block;
+}
+a{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;    
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;}
+p{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-left: 20px;
+}
