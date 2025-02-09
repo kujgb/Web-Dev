@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: black;
+    color: rgb(104, 103, 103);
+    margin: 0px;
+    padding: 1px 45px;
+
+}
+.l {
+    margin: 70px;
+    margin-left: 450px;
+    font-family: Arial, sans-serif;
+    gap: 5px;
+}
+.container {
+    max-width: 500px;
+    margin: 5px auto;
+    padding: 0px;
+    background: white;
+}
+.input-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+}
+.input-list input{
+    padding: 10px;
+    border: 1px solid rgb(205, 204, 204);
+    border-radius: 5px;
+    flex: 2;
+} 
+.input-list button{
+    padding: 10px 15px;
+    background: royalblue;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25px;
+    color: white;
+    cursor: pointer;
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0px -5px -40px;
+    border: 1px solid rgb(205, 204, 204); 
+    border-radius: 1px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.todo-item span.done {
+    text-decoration: line-through;
+    color: rgb(243, 237, 237);
+}
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: red;
+}
+.delete-btn:hover {
+    color: red;
+}
+
