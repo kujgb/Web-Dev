@@ -1,4 +1,3 @@
-HTML CSS JSResult Skip Results Iframe
 * {
   box-sizing: border-box;
   margin: 0;
@@ -102,8 +101,8 @@ ul {
     background: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP5-1920x600') no-repeat center center/cover;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Выравнивание по левому краю */
-    justify-content: center; /* Центрирование по вертикали */
+    align-items: flex-start; 
+    justify-content: center;
     padding: 0 50px;
     margin-bottom: 20px;
     color: white;
@@ -112,12 +111,12 @@ ul {
 .heading-group {
     display: flex;
     flex-direction: column; 
-    gap: 1px; /* Расстояние между h2 и h3 */
-    margin-bottom: -20px; /* Отступ между группой заголовков и p */
+    gap: 1px;
+    margin-bottom: -20px; 
 }
 
 .showcase p {
-    margin: 5px 0 15px; /* Отступы сверху и снизу */
+    margin: 5px 0 15px; 
     font-size: 8px;
     max-width: 500px;
     text-align: left;
@@ -196,7 +195,7 @@ ul {
     background-color: #005a9e;
     font-weight: bold;
 }
-    /* Адаптивность */
+ 
 @media (max-width: 768px) {
     .main-nav {
         flex-direction: column;

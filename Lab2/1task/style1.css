@@ -146,7 +146,7 @@ main {
 }
 footer {
     padding-bottom: 50px;
-    background-color: rgb(13, 13, 13); /* Добавил фон для footer */
+    background-color: rgb(13, 13, 13); 
     color: rgb(145, 143, 143);
 }
 
@@ -154,7 +154,7 @@ footer ol {
     list-style-type: none;
     display: flex;
     align-items: center;
-    justify-content: center; /* Исправил опечатку в 'justify-content' */
+    justify-content: center; 
     margin: 0;
     padding: 0;
 }
@@ -167,12 +167,12 @@ footer ol li a {
     color: rgb(145, 143, 143);
     text-transform: capitalize;
     font-size: 12px;
-    text-decoration: none; /* Добавил убирание подчеркивания */
-    transition: color 0.3s ease; /* Добавил плавный переход при наведении */
+    text-decoration: none; 
+    transition: color 0.3s ease; 
 }
 
 footer ol li a:hover {
-    color: white; /* Изменение цвета при наведении */
+    color: white; 
 }
 
 footer small {
