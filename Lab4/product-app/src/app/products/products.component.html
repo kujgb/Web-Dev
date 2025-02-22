@@ -1,8 +1,8 @@
 <div class="container">
-    <div *ngFor="let product of products" class="card-of-products">
+    <div *ngFor="let product of products" class="card-of-product">
       <div class="product-images">
         <img [src]="product.images[0]" alt="{{product.name}}" class="product-img">
-        <div class="img">
+        <div class="im">
           <img *ngFor="let img of product.images" [src]="img" (click)="product.images[0] = img" class="m">
         </div>
       </div>
