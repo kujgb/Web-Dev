@@ -1,0 +1,84 @@
+.content {
+	text-align: center;
+	font-family: Arial, sans-serif;
+  }
+  
+  .album-detail {
+	background: #222;
+	color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	display: inline-block;
+	width: 50%;
+  }
+  
+  fieldset {
+	text-align: left;
+	border: none;
+	background-color: #444;
+	padding: 15px;
+	border-radius: 5px;
+  }
+  
+  input {
+	width: calc(100% - 120px);
+	padding: 7px;
+	margin-right: 10px;
+	height: 30px;
+	border: none;
+	border-radius: 4px;
+  }
+  
+  .save-button {
+	width: 100px;
+	height: 34px;
+	background-color: #4CAF50;
+	font-size: 15px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 4px;
+  }
+  
+  .save-button:hover {
+	background-color: #45a049;
+  }
+  
+  .photos-link {
+	display: block;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	text-decoration: none;
+	background-color: #4CAF50;
+	border-radius: 4px;
+  }
+  
+  .photos-link:hover {
+	background-color: #45a049;
+  }
+  
+  .loading {
+	color: #FFD700;
+  }
+  
+  .error-message {
+	color: #FF6347;
+	font-weight: bold;
+  }
+  
+  .back-button {
+	margin-top: 15px;
+	padding: 10px 15px;
+	font-size: 14px;
+	cursor: pointer;
+	border: none;
+	background-color: #f44336;
+	color: white;
+	border-radius: 4px;
+  }
+  
+  .back-button:hover {
+	background-color: #d32f2f;
+  }
+  
